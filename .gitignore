@@ -1,0 +1,15 @@
+# Ignore data directory
+data/
+
+# Ignore Python cache
+__pycache__/
+**/__pycache__/
+
+# Optional: Ignore Python bytecode files (recommended)
+*.pyc
+*.pyo
+*.pyd
+
+# Optional: Ignore Jupyter Notebook checkpoints if any
+.ipynb_checkpoints/
+
