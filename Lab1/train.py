@@ -3,7 +3,7 @@ import sys
 import time
 import random
 import argparse
-
+from ECE588.Lab1.model.alexnet import AlexNet
 import numpy as np
 import torch
 import torch.nn as nn
@@ -12,10 +12,9 @@ from torchvision import transforms
 # Import model and helper functions
 sys.path.insert(0, ".")
 
-from model.model import AlexNet
-from helper_functions.helper_evaluate import compute_accuracy
-from helper_functions.helper_data import get_dataloaders_cifar10
-from helper_functions.helper_train import train_classifier_simple_v1
+from ECE588.Lab1.helper_functions.helper_evaluate import compute_accuracy
+from ECE588.Lab1.helper_functions.helper_data import get_dataloaders_cifar10
+from ECE588.Lab1.helper_functions.helper_train import train_classifier_simple_v1
 
 def set_all_seeds(seed):
     os.environ["PL_GLOBAL_SEED"] = str(seed)
