@@ -1,5 +1,5 @@
-from helper_evaluate import compute_accuracy
-from helper_evaluate import compute_epoch_loss
+from helper_functions.helper_evaluate import compute_accuracy
+from helper_functions.helper_evaluate import compute_epoch_loss
 
 import time
 import torch
