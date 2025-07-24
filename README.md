@@ -37,7 +37,7 @@ The course covers a wide range of critical topics in hardware-accelerated ML sys
   - **Pruning**: Weight pruning and structured sparsity for lightweight models  
   - **Knowledge Distillation**: Training compact student models guided by larger teacher networks
 
-## 👨‍🏫 Recent Instructor
+## 👨‍🏫 Instructor
 - Prof. Kyuwon Choi
 
 ## 📅 Recent Semesters Offered
@@ -47,8 +47,6 @@ The course covers a wide range of critical topics in hardware-accelerated ML sys
 - Fall 2022  
 - Fall 2021
 
-## 🏷️ Former Title
-- CAD Techniques for VLSI Design
 
 ## 👥 Class Size
 - Typically 10–30 students
